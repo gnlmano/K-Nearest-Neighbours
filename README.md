@@ -17,15 +17,15 @@ As performance metric, you can use AUC for the binary classification case, but f
 
 Main tasks are:
 
-Using mimic_train.csv file build a predictive model for HOSPITAL_EXPIRE_FLAG*.
-For this analysis there is an extra test dataset, mimic_test_death.csv. Apply your final model to this extra dataset and produce a prediction csv file in same format as mimic_kaggle_death_sample_submission.csv.
-As a bonus, try different algorithms for neighbor search and for distance, and justify final selection. Try also different weights to cope with class imbalance and also to balance neighbor proximity. Try to assess somehow confidence interval of predictions.
+1. Using mimic_train.csv file build a predictive model for HOSPITAL_EXPIRE_FLAG*.
+2. For this analysis there is an extra test dataset, mimic_test_death.csv. Apply your final model to this extra dataset and produce a prediction csv file in same format as mimic_kaggle_death_sample_submission.csv.
+3. As a bonus, try different algorithms for neighbor search and for distance, and justify final selection. Try also different weights to cope with class imbalance and also to balance neighbor proximity. Try to assess somehow confidence interval of predictions.
 
 You can follow those steps in your first implementation:
 
-*Explore and understand the dataset.
-*Manage missing data.
-*Manage categorical features. E.g. create dummy variables for relevant categorical features, or build an ad hoc distance function.
-*Build a prediction model. Try to improve it using methods to tackle class imbalance.
-*Assess expected accuracy of previous models using cross-validation.
-*Run the predictions on the mimic_test_death.csv test file, and report accuracy by submitting to Kaggle page. Follow same preparation steps (missing data, dummies, etc). Remember that you should be able to yield a prediction for all the rows of the test dataset.
+1. Explore and understand the dataset.
+2. Manage missing data.
+3. Manage categorical features. E.g. create dummy variables for relevant categorical features, or build an ad hoc distance function.
+4. Build a prediction model. Try to improve it using methods to tackle class imbalance.
+5. Assess expected accuracy of previous models using cross-validation.
+6. Run the predictions on the mimic_test_death.csv test file, and report accuracy by submitting to Kaggle page. Follow same preparation steps (missing data, dummies, etc). Remember that you should be able to yield a prediction for all the rows of the test dataset.
