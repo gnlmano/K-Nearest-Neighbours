@@ -1,4 +1,6 @@
-# K-Nearest-Neighbours
+# Course: Data Science for Decision Making
+## Module: Computational Machine Learning II - Assignment I
+### K-Nearest-Neighbours
 
 Prediction project: probability of death
 In this project, you have to predict the probability of death of a patient that is entering an ICU (Intensive Care Unit), using K-Nearest Neighbor models.
@@ -21,9 +23,9 @@ As a bonus, try different algorithms for neighbor search and for distance, and j
 
 You can follow those steps in your first implementation:
 
-Explore and understand the dataset.
-Manage missing data.
-Manage categorical features. E.g. create dummy variables for relevant categorical features, or build an ad hoc distance function.
-Build a prediction model. Try to improve it using methods to tackle class imbalance.
-Assess expected accuracy of previous models using cross-validation.
-Run the predictions on the mimic_test_death.csv test file, and report accuracy by submitting to Kaggle page. Follow same preparation steps (missing data, dummies, etc). Remember that you should be able to yield a prediction for all the rows of the test dataset.
+*Explore and understand the dataset.
+*Manage missing data.
+*Manage categorical features. E.g. create dummy variables for relevant categorical features, or build an ad hoc distance function.
+*Build a prediction model. Try to improve it using methods to tackle class imbalance.
+*Assess expected accuracy of previous models using cross-validation.
+*Run the predictions on the mimic_test_death.csv test file, and report accuracy by submitting to Kaggle page. Follow same preparation steps (missing data, dummies, etc). Remember that you should be able to yield a prediction for all the rows of the test dataset.
